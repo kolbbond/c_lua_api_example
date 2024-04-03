@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/test_lua_api.dir/test_api.cpp.o -o test_lua_api  -llua5.4 -lm 
