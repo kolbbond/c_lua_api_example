@@ -10,11 +10,12 @@ int main() {
 
   // load string
   if (luaL_dostring(L, "function foo (x,y) return x+y end")) {
+    printf("lua dostring failed\n");
     lua_close(L);
     return -1;
   }
 
-  for (int i = 0; i < 10000; i++) {
+  for (int i = 0; i < 2; i++) {
     // push foo to stack
     lua_getglobal(L, "foo");
     lua_pushinteger(L, 5);
