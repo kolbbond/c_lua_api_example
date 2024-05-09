@@ -1,3 +1,0 @@
-/home/ohr4/programs/cpp/lua-api/test_with_cmake/build/CMakeFiles/test_lua_api.dir
-/home/ohr4/programs/cpp/lua-api/test_with_cmake/build/CMakeFiles/edit_cache.dir
-/home/ohr4/programs/cpp/lua-api/test_with_cmake/build/CMakeFiles/rebuild_cache.dir
